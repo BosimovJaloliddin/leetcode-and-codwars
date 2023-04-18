@@ -34,3 +34,29 @@
 // }
 
 // console.log(pigIt("P latin is cool ?"));
+
+// ==============================================
+// masala shartiga link:https:https://www.codewars.com/kata/525f50e3b73515a6db000b83/train/javascript
+//6 kyu
+
+// function createPhoneNumber(numbers) {
+//   let res = "(";
+//   numbers.forEach((v, i) => {
+//     if (i < 3) {
+//       res += v;
+//     } else if (i === 3) {
+//       res += `) ${v}`;
+//     } else if (i < 6) {
+//       res += v;
+//     } else if (i == 6) {
+//       res += `-${v}`;
+//     } else {
+//       res += v;
+//     }
+//   });
+//   return res;
+// }
+
+// console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
+
+// ==============================================
