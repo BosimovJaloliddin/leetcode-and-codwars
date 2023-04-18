@@ -60,3 +60,15 @@
 // console.log(createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]));
 
 // ==============================================
+// masala shartiga link:https://www.codewars.com/kata/5526fc09a1bbd946250002dc/train/javascript
+// 6 kyu
+
+// function findOutlier(integers) {
+//   let ar1 = [];
+//   let ar2 = [];
+//   integers.forEach((v) => {
+//     v % 2 == 0 ? ar1.push(v) : ar2.push(v);
+//   });
+//   return ar1.length > ar2.length ? ar2[0] : ar1[0];
+// }
+// console.log(findOutlier([4, 6, 8, 3, 4]));
