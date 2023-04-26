@@ -1,6 +1,5 @@
 // masala shartiga link:https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08/train/javascript
 // 6 kyu
-
 multiplicationTable = function (size) {
   let res = [];
   let count = 1;
