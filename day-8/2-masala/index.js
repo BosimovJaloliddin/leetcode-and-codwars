@@ -12,7 +12,6 @@
 
 // masala shartiga link:https://www.codewars.com/kata/537529f42993de0e0b00181f/train/javascript
 // 6 kyu
-
 function countInversions(array) {
   let res = 0;
   array.forEach((e, i) =>
