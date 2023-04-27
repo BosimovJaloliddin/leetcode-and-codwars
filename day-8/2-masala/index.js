@@ -15,13 +15,11 @@
 
 function countInversions(array) {
   let res = 0;
-  array.forEach((e, i) => {
+  array.forEach((e, i) =>
     array.forEach((v, idx) => {
-      if (e > v && idx >= i) {
-        res++;
-      }
-    });
-  });
+      if (e > v && idx >= i) res++;
+    })
+  );
   return res;
 }
-countInversions([6, 5, 4, 3, 3, 3, 3, 2, 1]);
+console.log(countInversions([6, 5, 4, 3, 3, 3, 3, 2, 1]));
