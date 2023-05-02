@@ -11,32 +11,32 @@
 // link:https://www.codewars.com/kata/52685f7382004e774f0001f7/train/javascript
 // 5 kyu
 
-// function humanReadable(seconds) {
-//   let obj = {
-//     hour: "00",
-//     minut: "00",
-//     second: "00",
-//   };
-//   let sec = seconds;
-//   if (seconds >= 3600) {
-//     obj.hour += Math.trunc(seconds / 3600);
-//     sec = seconds % 3600;
-//   }
-//   if (60 <= sec < 3600) {
-//     obj.minut += Math.trunc(sec / 60);
-//     sec = sec % 60;
-//   }
-//   if (sec < 60) {
-//     obj.second += sec;
-//   }
-//   console.log(obj);
-//   return `${obj.hour.slice(
-//     obj.hour.length - 2,
-//     obj.hour.length
-//   )}:${obj.minut.slice(
-//     obj.minut.length - 2,
-//     obj.minut.length
-//   )}:${obj.second.slice(obj.second.length - 2, obj.second.length)}`;
-// }
+function humanReadable(seconds) {
+  let obj = {
+    hour: "00",
+    minut: "00",
+    second: "00",
+  };
+  let sec = seconds;
+  if (seconds >= 3600) {
+    obj.hour += Math.trunc(seconds / 3600);
+    sec = seconds % 3600;
+  }
+  if (60 <= sec < 3600) {
+    obj.minut += Math.trunc(sec / 60);
+    sec = sec % 60;
+  }
+  if (sec < 60) {
+    obj.second += sec;
+  }
+  console.log(obj);
+  return `${obj.hour.slice(
+    obj.hour.length - 2,
+    obj.hour.length
+  )}:${obj.minut.slice(
+    obj.minut.length - 2,
+    obj.minut.length
+  )}:${obj.second.slice(obj.second.length - 2, obj.second.length)}`;
+}
 
-// console.log(humanReadable(35999932));
+console.log(humanReadable(35999932));
