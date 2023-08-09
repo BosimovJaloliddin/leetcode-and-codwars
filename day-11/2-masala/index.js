@@ -14,7 +14,8 @@
 // Your function should be case insensitive to the vowels.
 
 //=====================================================
-//7kyu
+
+// 7kyu
 
 function vowel2index(str) {
   let baz = "aeiou";
