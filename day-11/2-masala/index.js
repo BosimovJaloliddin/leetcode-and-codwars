@@ -25,3 +25,8 @@ function vowel2index(str) {
   return res.join("");
 }
 console.log(vowel2index("this is my string"));
+
+//=====================
+// function vowel2index(str) {
+//   return str.replace(/[aeiou]/gi, (m, i) => i + 1);
+// }
