@@ -22,9 +22,15 @@
 
 // ============================================= Easy ===========================
 
-let args = [{}, null, "3"];
+// /**
+//  * @param {...(null|boolean|number|string|Array|Object)} args
+//  * @return {number}
+//  */
+
 var argumentsLength = function (...args) {
-  return args.flat(Infinity).length;
+  return args.length;
 };
 
-console.log(argumentsLength(args));
+/**
+ * argumentsLength(1, 2, 3); // 3
+ */
