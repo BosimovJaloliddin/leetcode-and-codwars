@@ -1,5 +1,4 @@
-//3190. Найдите минимальные операции, чтобы сделать все элементы делящимися на три
-
+// 3190. Find Minimum Operations to Make All Elements Divisible by Three
 var minimumOperations = function (nums) {
   let res = 0;
   for (let i = 0; i < nums.length; i++) {
