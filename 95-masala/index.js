@@ -1,5 +1,6 @@
 // 3099. Harshad Number
 // link => https://leetcode.com/problems/harshad-number/description/
+// Tugamagan
 var sumOfTheDigitsOfHarshadNumber = function (x) {
   let res = 0;
   if (x < 10) {
